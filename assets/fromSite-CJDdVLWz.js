@@ -1,0 +1,1 @@
+function e(){let e=new URLSearchParams(location.search).get(`site`);if(e===`ses`||e===`ai`)return e;let t=/\/recruit\/(ses|ai)(\/|$)/.exec(new URL(document.referrer||location.href).pathname);return t?t[1]:``}export{e as t};
