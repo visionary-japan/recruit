@@ -1,0 +1,1 @@
+import{g as e}from"./usePageZoom-BaEO5nvL.js";function t(){let t=new URLSearchParams(location.search).get(`site`);return t===`ses`||t===`ai`?t:e()??``}export{t};
